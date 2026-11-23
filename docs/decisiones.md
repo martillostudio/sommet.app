@@ -27,8 +27,9 @@
 | 2026-11-23 | Garmin Connect: la API personal es solo lectura; SOMMET exporta el .fit para importarlo a mano. |
 | 2026-11-23 | Puertos precargados: perfiles generados con OpenStreetMap (ODbL, con atribución) + relieve Copernicus GLO-30. Fase 5. |
 | 2026-11-23 | Marca SOMMET: sin conflicto evidente en una búsqueda rápida; registro formal (EUIPO/OEPM) antes de publicar. |
+| 2026-11-23 | **Conectores Strava y Garmin**, intercambiables. Al terminar una sesión: si Strava está conectado se sube allí (prioridad); si no, a Garmin; si ninguno sube, se ofrece el .fit para importarlo a mano. intervals.icu siempre recibe la sesión. Límites actuales: la API de Strava exige suscripción de pago del desarrollador; la API personal de Garmin solo lee. El conector se activa cuando haya vía. |
 
 ## Pendiente (cierra la Fase 0)
 
-- [ ] Garmin Connect: ¿vale importar a mano el .fit de cada sesión, o basta con intervals.icu?
+- [ ] Strava: decidir si se paga la suscripción (≈12 $/mes) para activar la subida automática.
 - [ ] Antes de publicar: consultar SOMMET en el registro de marcas (EUIPO/OEPM).
