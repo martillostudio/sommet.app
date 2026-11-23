@@ -17,9 +17,18 @@
 | 2026-11-23 | En ERG, +/− ajustan la intensidad ±5 %. Mapeo de mandos: +/− marchas, A pausa, B saltar, Y/Z dato, cruceta menús. |
 | 2026-11-23 | Sin cuenta Apple de pago por ahora: Mac como plataforma principal y sin sincronizar; iCloud preparado para activarse. |
 | 2026-11-23 | Licencia GPL-3.0. Diseño de pantallas en el lienzo de diseño de Claude. |
+| 2026-11-23 | Tras el MVP, primero el plan adaptativo. Días fijos: lunes a viernes rodillo, fines de semana salidas en exterior que cuentan en la carga. |
+| 2026-11-23 | Enviar entrenos estructurados al Garmin Edge. Montaje variable: el modo rodaje se adapta a cualquier tamaño. App en español. |
+| 2026-11-23 | Notificaciones: recordatorio del entreno del día y resumen semanal. |
+| 2026-11-23 | Motor del plan con reglas legibles que explican cada cambio; sensaciones antes de la sesión y esfuerzo percibido (1–10) al terminar. |
+| 2026-11-23 | Exportación completa en formatos abiertos (.fit por sesión + archivo con todo). |
+| 2026-11-23 | **intervals.icu es el puente:** SOMMET sube sesiones (.fit) y copia el plan a su calendario por API (clave personal); intervals.icu envía los entrenos de la semana a Garmin Connect y de ahí al Edge. |
+| 2026-11-23 | Strava no se integra directamente: su API exige suscripción de pago desde el 1-jun-2026. |
+| 2026-11-23 | Garmin Connect: la API personal es solo lectura; SOMMET exporta el .fit para importarlo a mano. |
+| 2026-11-23 | Puertos precargados: perfiles generados con OpenStreetMap (ODbL, con atribución) + relieve Copernicus GLO-30. Fase 5. |
+| 2026-11-23 | Marca SOMMET: sin conflicto evidente en una búsqueda rápida; registro formal (EUIPO/OEPM) antes de publicar. |
 
 ## Pendiente (cierra la Fase 0)
 
-- [ ] Subir a Garmin Connect / Strava: comprobar qué es posible sin cuenta de pago ni aprobación especial.
-- [ ] Puertos precargados: de dónde salen los perfiles y con qué licencia.
-- [ ] Antes de publicar: comprobar que «Sommet» no está registrada en apps de ciclismo.
+- [ ] Garmin Connect: ¿vale importar a mano el .fit de cada sesión, o basta con intervals.icu?
+- [ ] Antes de publicar: consultar SOMMET en el registro de marcas (EUIPO/OEPM).
